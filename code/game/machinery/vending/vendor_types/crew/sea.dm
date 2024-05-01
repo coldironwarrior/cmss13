@@ -78,9 +78,6 @@ GLOBAL_LIST_INIT(cm_vending_clothing_sea, list(
 		list("HEADWEAR (CHOOSE 1)", 0, null, null, null),
 		list("Drill Hat", 0, /obj/item/clothing/head/drillhat, MARINE_CAN_BUY_MASK, VENDOR_ITEM_RECOMMENDED),
 		list("M10 Helmet", 0, /obj/item/clothing/head/helmet/marine, MARINE_CAN_BUY_HELMET, VENDOR_ITEM_REGULAR),
-
-		list("TOOLS OF THE TRADE", 0, null, null, null),
-		list("CPR Dummy", 5, /obj/item/cpr_dummy, null, VENDOR_ITEM_REGULAR)
 	))
 
 /obj/structure/machinery/cm_vending/clothing/sea
